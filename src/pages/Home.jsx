@@ -1,0 +1,53 @@
+import { useState } from 'react'
+import Card from '../components/Card'
+import usePageTitle from '../hooks/UsePageTitle'
+
+
+export default function Home() {
+    // Hook useState para controle de destaque de cards
+    const [highlight, setHighlight] = useState(null)
+
+
+    usePageTitle('Portfólio | João Silva')
+
+
+    return (
+        <main className="container">
+            {/* Seção principal (Hero) */}
+            <section className="hero">
+                <h2>Olá, eu sou João</h2>
+                <h1>Desenvolvedor Full-stack</h1>
+                <p>
+                    Desenvolvedor especializado em aplicações web modernas utilizando React,
+                    com foco em usabilidade, performance e boas práticas de código.
+                </p>
+                <a className="btn primary" href="#">Download resume</a>
+            </section>
+
+
+            {/* Seção de Cards */}
+            <section className="cards">
+                <p className='subTitleBlog'>Blog</p>
+                <p></p>
+                <div onMouseEnter={() => setHighlight(1)} onMouseLeave={() => setHighlight(null)}>
+                    <Card
+                        title="Design System"
+                        text="Criação de sistemas visuais reutilizáveis e escaláveis para produtos digitais."
+                        link="/blog"
+                        active={highlight === 1}
+                    />
+                </div>
+
+
+                <div onMouseEnter={() => setHighlight(2)} onMouseLeave={() => setHighlight(null)}>
+                    <Card
+                        title="Figma Icons"
+                        text="Processo profissional de design e exportação de ícones no Figma."
+                        link="/blog"
+                        active={highlight === 2}
+                    />
+                </div>
+            </section>
+        </main>
+    )
+}
