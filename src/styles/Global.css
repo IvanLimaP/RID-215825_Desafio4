@@ -132,3 +132,14 @@ body {
     transform: translateY(-6px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
+
+@media only screen and (min-width: 1080px) and (max-width: 1919px) {
+
+
+}
+
+@media only screen and (min-width: 340px) and (max-width: 714px) {
+
+    
+
+}
