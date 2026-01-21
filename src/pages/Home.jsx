@@ -1,29 +1,29 @@
 import { useState } from 'react'
 import Card from '../components/Card'
 import usePageTitle from '../hooks/UsePageTitle'
-
+import ProjectsCard from '../components/ProjectsCard'
 
 export default function Home() {
     // Hook useState para controle de destaque de cards
     const [highlight, setHighlight] = useState(null)
 
 
-    usePageTitle('Portfólio | João Silva')
+    usePageTitle('Portfólio | Ivan Lima')
 
 
     return (
         <main className="container">
+
             {/* Seção principal (Hero) */}
             <section className="hero">
-                <h2>Olá, eu sou João</h2>
-                <h1>Desenvolvedor Full-stack</h1>
+                <h2>Olá, eu sou Ivan</h2>
+                <h1>Desenvolvedor Front End</h1>
                 <p>
                     Desenvolvedor especializado em aplicações web modernas utilizando React,
                     com foco em usabilidade, performance e boas práticas de código.
                 </p>
                 <a className="btn primary" href="#">Download resume</a>
             </section>
-
 
             {/* Seção de Cards */}
             <section className="cards">
@@ -47,6 +47,12 @@ export default function Home() {
                         active={highlight === 2}
                     />
                 </div>
+            </section>
+
+            {/* Seção de projets Card */}
+            <section>
+               <ProjectsCard/>
+
             </section>
         </main>
     )
