@@ -6,7 +6,7 @@ const projects = [
         id: 1,
         title: "Projeto Carmo Country Clube",
         description:
-            "Projeto  pessoal focado em colocar em pratica o meu aprendizado, fazendo um design diferente do comum.",
+            "Projeto pessoal focado em colocar em pratica o meu aprendizado, fazendo um design diferente do comum.",
         image: "../../public/imagens/imgClube.png",
         route: "https://carmocountryclub.netlify.app/",
     },
@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "Site Corretora Thamara Peres",
         description:
-            "um projeto pessoal mas tambem profissional que logo estará no ar para ajudar os clientes a encontrarem mais irformações sobre os imoveis a venda e para entrar em contato com a corretora Thamara Peres.",
+            "Projeto pessoal mas tambem profissional que logo estará no ar para ajudar os clientes a encontrarem mais irformações sobre os imoveis a venda e para entrar em contato com a corretora Thamara Peres.",
         image: "../../public/imagens/imgCorretora.png",
         route: "https://thamaraperescorretora.netlify.app/",
     },
@@ -22,7 +22,7 @@ const projects = [
         id: 3,
         title: "Projeto desafio 02 escola DNC",
         description:
-            "um projeto pessoal mas tambem profissional que logo estará no ar para ajudar o clientes encontrarem mais irformações sobre os imoveis a venda e para entrar em contato com a corretora Thamara Peres.",
+            "Projeto de uma landing page sugerido pela escola DNC como desafio 02.",
         image: "../../public/imagens/imgSiteDev.png",
         route: "https://rid215825desafio2.netlify.app/",
     },
@@ -53,7 +53,7 @@ export default function ProjectsCard() {
                             />
 
                             <div className="">
-                                <h3 className="">
+                                <h3 className="subTitleH3">
                                     {project.title}
                                 </h3>
                                 <p className="">
