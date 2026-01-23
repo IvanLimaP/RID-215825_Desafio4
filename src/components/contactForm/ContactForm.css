@@ -1,0 +1,130 @@
+.contact-form {
+    margin: 160px auto;
+    max-width: 797px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-form h2 {
+    font-size: 50px;
+}
+
+.contact-form form {
+    margin: 40px 0 0 0 ;
+    width: 100%;
+}
+
+.contact-form p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact-form .form-group {
+    column-gap: 39px;
+    margin: 40px 0 0 0;
+
+}
+
+.buttonContact {
+  background-color: #ef4444;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+
+Button:hover {
+    background-color: #e42323;
+    ;
+}
+
+.containerContactForm {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  padding: 0 30px;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+ /*estilização*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Mono&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Jost", "sans-serif";
+  font-weight: 400;
+  color: #292F36;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*FORM*/
+.form-input {
+  border: none;
+  border-bottom: 1px solid #292F36;
+  color: #292F36;
+  font-size: 22px;
+  font-family: "Jost", sans-serif;
+  padding: 0 0 13px 0;
+  outline: none;
+  width: 100%;
+}
+
+.form-input::placeholder {
+  color: #292F36;
+  opacity: 1;
+}
+
+/*TYPOGRAPHY*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Serif Display", serif;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 150%;
+}
+
+.txt-center {
+  text-align: center;
+}
+

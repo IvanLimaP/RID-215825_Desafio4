@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Card from '../components/Card'
 import usePageTitle from '../hooks/UsePageTitle'
 import ProjectsCard from '../components/ProjectsCard'
+import { Link } from 'react-router-dom'
+
 
 export default function Home() {
     // Hook useState para controle de destaque de cards
@@ -19,10 +21,10 @@ export default function Home() {
                 <h2>Olá, eu sou Ivan</h2>
                 <h1>Desenvolvedor Front End</h1>
                 <p>
-                    Desenvolvedor especializado em aplicações web modernas utilizando React,
+                    Desenvolvedor especializado em aplicações web modernas utilizando CSS, HTML, JavaScript, TypeScript e React,
                     com foco em usabilidade, performance e boas práticas de código.
                 </p>
-                <a className="btn primary" href="#">Download resume</a>
+                <Link className='btn primary' to="/contact">Entre em Contato</Link>
             </section>
 
             {/* Seção de Cards */}
