@@ -33,8 +33,8 @@ export default function Home() {
                 <p></p>
                 <div onMouseEnter={() => setHighlight(1)} onMouseLeave={() => setHighlight(null)}>
                     <Card
-                        title="Design System"
-                        text="Criação de sistemas visuais reutilizáveis e escaláveis para produtos digitais."
+                        title="Educação corporativa"
+                        text="Case Foursys: Veja como a Foursys aumentou a receita em 300% e reduziu o churn investindo em educação corporativa."
                         link="/blog"
                         active={highlight === 1}
                     />
@@ -43,8 +43,8 @@ export default function Home() {
 
                 <div onMouseEnter={() => setHighlight(2)} onMouseLeave={() => setHighlight(null)}>
                     <Card
-                        title="Figma Icons"
-                        text="Processo profissional de design e exportação de ícones no Figma."
+                        title="Devops"
+                        text="De DevOps para AIOps: ferramentas práticas para a próxima era das operações. Desvende a transição de DevOps para AIOps com ferramentas práticas."
                         link="/blog"
                         active={highlight === 2}
                     />
