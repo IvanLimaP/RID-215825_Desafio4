@@ -21,7 +21,7 @@ export default function Home() {
                 <h2>Olá, eu sou Ivan</h2>
                 <h1>Desenvolvedor Front End</h1>
                 <p>
-                    Desenvolvedor especializado em aplicações web modernas utilizando CSS, HTML, JavaScript, TypeScript e React,
+                    Desenvolvedor de aplicações web modernas utilizando as principais linguagens de programação,
                     com foco em usabilidade, performance e boas práticas de código.
                 </p>
                 <Link className='btn primary' to="/contact">Entre em Contato</Link>

@@ -193,7 +193,19 @@ body {
 }
 
 
+.imgLogoGit {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+}
 
+.containerProjeto02 {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
