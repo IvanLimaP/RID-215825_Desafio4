@@ -13,7 +13,7 @@ const projects = [
         title: "Projeto Carmo Country Clube",
         description:
             "Projeto pessoal focado em colocar em pratica o meu aprendizado, fazendo um design diferente do comum.",
-        image: "../../public/imagens/Screenshot_1.png" ,
+        image: "../assets/twitter.svg" ,
         route: "https://carmocountryclub.netlify.app/",
     },
     {
