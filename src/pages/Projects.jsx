@@ -10,7 +10,7 @@ export default function Projects() {
         <main className="container">
             <section className='containerProjeto02'>
                 <h1 className='titleBlog02'>Principais Projetos do GitHub</h1>
-                <img className='imgLogoGit' src="../../public/imagens/gitLogo.png" alt="" />
+                <img className='imgLogoGit' src="/imagens/gitLogo.png" alt="" />
             </section>
             <ProjectsCard/>
         </main>
