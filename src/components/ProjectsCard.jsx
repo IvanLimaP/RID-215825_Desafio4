@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+
 const projects = [
     {
         id: 1,
         title: "Projeto Carmo Country Clube",
         description:
             "Projeto pessoal focado em colocar em pratica o meu aprendizado, fazendo um design diferente do comum.",
-        image: "../../public/imagens/imgClube.png",
+        image: "../../public/imagens/imgClube.png" ,
         route: "https://carmocountryclub.netlify.app/",
     },
     {
