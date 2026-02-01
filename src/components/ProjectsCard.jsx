@@ -8,7 +8,7 @@ const projects = [
         title: "Projeto Carmo Country Clube",
         description:
             "Projeto pessoal focado em colocar em pratica o meu aprendizado, fazendo um design diferente do comum.",
-        image: "../../public/imagens/imgClube.png" ,
+        image: "/imagens/imgClube.png" ,
         route: "https://carmocountryclub.netlify.app/",
     },
     {
@@ -16,7 +16,7 @@ const projects = [
         title: "Site Corretora Thamara Peres",
         description:
             "Projeto pessoal mas tambem profissional que logo estará no ar para ajudar os clientes a encontrarem mais irformações sobre os imoveis a venda e para entrar em contato com a corretora Thamara Peres.",
-        image: "../../public/imagens/imgCorretora.png" ,
+        image: "/imagens/imgCorretora.png" ,
         route: "https://thamaraperescorretora.netlify.app/",
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         title: "Projeto desafio 02 escola DNC",
         description:
             "Projeto de uma landing page sugerido pela escola DNC como desafio 02.",
-        image:  "../../public/imagens/imgSiteDev.png" ,
+        image:  "/imagens/imgSiteDev.png" ,
         route: "https://rid215825desafio2.netlify.app/",
     },
     
